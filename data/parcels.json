@@ -1,0 +1,14 @@
+[
+  { "id": "AWB-1001", "weightKg": 0.8,  "zoneId": "Z-PIPERA",     "priority": "STANDARD", "createdAt": "2026-07-24T08:01:00Z", "status": "PENDING" },
+  { "id": "AWB-1002", "weightKg": 4.2,  "zoneId": "Z-CENTRU",     "priority": "EXPRESS",  "createdAt": "2026-07-24T08:02:00Z", "status": "PENDING" },
+  { "id": "AWB-1003", "weightKg": 1.5,  "zoneId": "Z-MILITARI",   "priority": "STANDARD", "createdAt": "2026-07-24T08:03:00Z", "status": "PENDING" },
+  { "id": "AWB-1004", "weightKg": 11.0, "zoneId": "Z-BERCENI",    "priority": "STANDARD", "createdAt": "2026-07-24T08:04:00Z", "status": "PENDING" },
+  { "id": "AWB-1005", "weightKg": 0.4,  "zoneId": "Z-OTOPENI",    "priority": "EXPRESS",  "createdAt": "2026-07-24T08:05:00Z", "status": "PENDING" },
+  { "id": "AWB-1006", "weightKg": 2.9,  "zoneId": "Z-TITAN",      "priority": "STANDARD", "createdAt": "2026-07-24T08:06:00Z", "status": "PENDING" },
+  { "id": "AWB-1007", "weightKg": 1.1,  "zoneId": "Z-DRUMTABEREI","priority": "STANDARD", "createdAt": "2026-07-24T08:07:00Z", "status": "PENDING" },
+  { "id": "AWB-1008", "weightKg": 6.5,  "zoneId": "Z-AVIATIEI",   "priority": "EXPRESS",  "createdAt": "2026-07-24T08:08:00Z", "status": "PENDING" },
+  { "id": "AWB-1009", "weightKg": 0.9,  "zoneId": "Z-CENTRU",     "priority": "STANDARD", "createdAt": "2026-07-24T08:09:00Z", "status": "PENDING" },
+  { "id": "AWB-1010", "weightKg": 14.5, "zoneId": "Z-PIPERA",     "priority": "STANDARD", "createdAt": "2026-07-24T08:10:00Z", "status": "PENDING" },
+  { "id": "AWB-1011", "weightKg": 1.8,  "zoneId": "Z-BERCENI",    "priority": "EXPRESS",  "createdAt": "2026-07-24T08:11:00Z", "status": "PENDING" },
+  { "id": "AWB-1012", "weightKg": 3.3,  "zoneId": "Z-MILITARI",   "priority": "STANDARD", "createdAt": "2026-07-24T08:12:00Z", "status": "PENDING" }
+]

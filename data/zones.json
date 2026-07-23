@@ -1,0 +1,10 @@
+[
+  { "id": "Z-PIPERA",    "name": "Pipera",          "center": { "lat": 44.5205, "lng": 26.1180 }, "distanceKm": { "HUB-NORD": 2.1,  "HUB-VEST": 14.8, "HUB-SUD": 19.5 } },
+  { "id": "Z-AVIATIEI",  "name": "Aviatiei",        "center": { "lat": 44.4870, "lng": 26.1030 }, "distanceKm": { "HUB-NORD": 5.2,  "HUB-VEST": 11.0, "HUB-SUD": 14.6 } },
+  { "id": "Z-CENTRU",    "name": "Centrul Vechi",   "center": { "lat": 44.4310, "lng": 26.1015 }, "distanceKm": { "HUB-NORD": 11.4, "HUB-VEST": 8.9,  "HUB-SUD": 8.2 } },
+  { "id": "Z-MILITARI",  "name": "Militari",        "center": { "lat": 44.4340, "lng": 25.9660 }, "distanceKm": { "HUB-NORD": 16.9, "HUB-VEST": 2.4,  "HUB-SUD": 13.8 } },
+  { "id": "Z-DRUMTABEREI","name": "Drumul Taberei", "center": { "lat": 44.4160, "lng": 26.0210 }, "distanceKm": { "HUB-NORD": 15.7, "HUB-VEST": 4.1,  "HUB-SUD": 10.2 } },
+  { "id": "Z-BERCENI",   "name": "Berceni",         "center": { "lat": 44.3880, "lng": 26.1220 }, "distanceKm": { "HUB-NORD": 16.3, "HUB-VEST": 12.5, "HUB-SUD": 3.3 } },
+  { "id": "Z-TITAN",     "name": "Titan",           "center": { "lat": 44.4215, "lng": 26.1560 }, "distanceKm": { "HUB-NORD": 13.0, "HUB-VEST": 14.7, "HUB-SUD": 7.6 } },
+  { "id": "Z-OTOPENI",   "name": "Otopeni",         "center": { "lat": 44.5500, "lng": 26.0700 }, "distanceKm": { "HUB-NORD": 3.4,  "HUB-VEST": 13.9, "HUB-SUD": 22.1 } }
+]

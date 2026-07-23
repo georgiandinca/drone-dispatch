@@ -1,0 +1,17 @@
+{
+  "name": "drone-dispatch",
+  "version": "0.1.0",
+  "description": "Cargus AI Express lab — hypothetical drone delivery dispatch service",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}

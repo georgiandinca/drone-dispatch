@@ -1,0 +1,12 @@
+[
+  { "id": "DR-01", "model": "Sparrow",  "batteryPct": 92, "maxPayloadKg": 2.0,  "rangeKm": 12, "base": "HUB-NORD",   "position": { "lat": 44.5320, "lng": 26.1010 }, "status": "IDLE" },
+  { "id": "DR-02", "model": "Sparrow",  "batteryPct": 34, "maxPayloadKg": 2.0,  "rangeKm": 12, "base": "HUB-NORD",   "position": { "lat": 44.5325, "lng": 26.1022 }, "status": "IDLE" },
+  { "id": "DR-03", "model": "Heron",    "batteryPct": 78, "maxPayloadKg": 5.0,  "rangeKm": 20, "base": "HUB-NORD",   "position": { "lat": 44.5318, "lng": 26.1005 }, "status": "IDLE" },
+  { "id": "DR-04", "model": "Heron",    "batteryPct": 15, "maxPayloadKg": 5.0,  "rangeKm": 20, "base": "HUB-VEST",   "position": { "lat": 44.4430, "lng": 25.9910 }, "status": "CHARGING" },
+  { "id": "DR-05", "model": "Albatros", "batteryPct": 88, "maxPayloadKg": 12.0, "rangeKm": 35, "base": "HUB-VEST",   "position": { "lat": 44.4428, "lng": 25.9902 }, "status": "IDLE" },
+  { "id": "DR-06", "model": "Sparrow",  "batteryPct": 61, "maxPayloadKg": 2.0,  "rangeKm": 12, "base": "HUB-VEST",   "position": { "lat": 44.4432, "lng": 25.9915 }, "status": "IDLE" },
+  { "id": "DR-07", "model": "Heron",    "batteryPct": 97, "maxPayloadKg": 5.0,  "rangeKm": 20, "base": "HUB-SUD",    "position": { "lat": 44.3610, "lng": 26.1305 }, "status": "IDLE" },
+  { "id": "DR-08", "model": "Sparrow",  "batteryPct": 55, "maxPayloadKg": 2.0,  "rangeKm": 12, "base": "HUB-SUD",    "position": { "lat": 44.3612, "lng": 26.1310 }, "status": "MAINTENANCE" },
+  { "id": "DR-09", "model": "Albatros", "batteryPct": 42, "maxPayloadKg": 12.0, "rangeKm": 35, "base": "HUB-SUD",    "position": { "lat": 44.3608, "lng": 26.1300 }, "status": "IDLE" },
+  { "id": "DR-10", "model": "Heron",    "batteryPct": 70, "maxPayloadKg": 5.0,  "rangeKm": 20, "base": "HUB-NORD",   "position": { "lat": 44.5322, "lng": 26.1018 }, "status": "IDLE" }
+]

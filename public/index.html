@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drone Dispatch</title>
+  <!--
+    This dashboard is intentionally basic: raw lists, no map, no live updates,
+    no explanation of why a parcel was assigned to a drone.
+    Improving it is Story 2 (see STORY-2-live-tracking.md).
+  -->
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; color: #222; }
+    h1 { font-size: 1.4rem; }
+    h2 { font-size: 1.05rem; margin-top: 2rem; }
+    table { border-collapse: collapse; width: 100%; max-width: 720px; }
+    th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: left; font-size: 0.9rem; }
+    th { background: #f2f2f2; }
+    button { margin-top: 1rem; padding: 6px 14px; }
+  </style>
+</head>
+<body>
+  <h1>Drone Dispatch — operations</h1>
+  <button id="dispatchBtn">Run dispatch</button>
+  <button id="refreshBtn">Refresh</button>
+
+  <h2>Pending parcels</h2>
+  <table id="parcels"><thead><tr><th>AWB</th><th>Weight (kg)</th><th>Zone</th><th>Priority</th><th>Status</th></tr></thead><tbody></tbody></table>
+
+  <h2>Drones</h2>
+  <table id="drones"><thead><tr><th>ID</th><th>Model</th><th>Battery</th><th>Max payload</th><th>Status</th></tr></thead><tbody></tbody></table>
+
+  <h2>Assignments</h2>
+  <table id="assignments"><thead><tr><th>Parcel</th><th>Drone</th><th>Reason</th></tr></thead><tbody></tbody></table>
+
+  <script>
+    async function load() {
+      const [parcels, drones, assignments] = await Promise.all([
+        fetch("/api/parcels").then((r) => r.json()),
+        fetch("/api/drones").then((r) => r.json()),
+        fetch("/api/assignments").then((r) => r.json()),
+      ]);
+
+      fill("parcels", parcels.map((p) => [p.id, p.weightKg, p.zoneId, p.priority, p.status]));
+      fill("drones", drones.map((d) => [d.id, d.model, d.batteryPct + "%", d.maxPayloadKg + " kg", d.status]));
+      fill("assignments", assignments.map((a) => [a.parcelId, a.droneId, a.reason]));
+    }
+
+    function fill(tableId, rows) {
+      const tbody = document.querySelector(`#${tableId} tbody`);
+      tbody.innerHTML = "";
+      for (const row of rows) {
+        const tr = document.createElement("tr");
+        for (const cell of row) {
+          const td = document.createElement("td");
+          td.textContent = String(cell);
+          tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      }
+    }
+
+    document.getElementById("dispatchBtn").addEventListener("click", async () => {
+      await fetch("/api/dispatch", { method: "POST" });
+      load();
+    });
+    document.getElementById("refreshBtn").addEventListener("click", load);
+
+    load();
+  </script>
+</body>
+</html>
