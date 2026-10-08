@@ -2,7 +2,7 @@
 
 Lab codebase for the **AI Express** workshop — *First Mile: AI Across the SDLC*.
 
-Cargus is (hypothetically!) piloting drone deliveries in Bucharest. Three hubs
+AeroLogistics is piloting drone deliveries in Bucharest. Three hubs
 (Nord, Vest, Sud), a mixed fleet of 10 drones, and a dispatch service that
 assigns parcels to drones. The dispatcher works, but it is naive — and the
 operations dashboard is bare. Your job today is to improve both, in parallel,
@@ -41,6 +41,8 @@ test/            baseline tests (some document known flaws on purpose)
 CONTRACT.md      the agreement between the two story teams — read it first
 STORY-1-smart-dispatch.md
 STORY-2-live-tracking.md
+STORY-3-cloud-migration.md
+GEMINI.md        AI instructions & context
 ```
 
 Everything is in memory. No database, no external services, no API keys.
