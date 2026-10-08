@@ -1,0 +1,22 @@
+AGENTS.md
+  h_4382ce5fcfa66f 1-5
+GEMINI.md
+  h_4382ce5fcfa66f 1-139
+README.md
+  h_4382ce5fcfa66f 5,44-45
+STORY-3-cloud-migration.md
+  h_4382ce5fcfa66f 1-108
+package.json
+  h_4382ce5fcfa66f 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dc2b1a802857b96fb48d90bcba7531847c9afd36",
+  "prompts": {},
+  "humans": {
+    "h_4382ce5fcfa66f": {
+      "author": "Georgian Dinca <georgian.dinca@tremend.com>"
+    }
+  }
+}
