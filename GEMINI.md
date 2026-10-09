@@ -1,4 +1,4 @@
-# GEMINI.md — Dedeman Drone Dispatch Demo
+# GEMINI.md — Drone Dispatch Demo
 
 **Canonical guidance for Gemini and AI coding agents working in this repository.**
 
@@ -30,7 +30,7 @@ This repository is a fast, interactive demo and workshop lab for drone delivery 
 ## 2. Architecture & File Layout
 
 ```
-dedeman-drone/
+drone-dispatch/
 ├── data/
 │   ├── drones.json          # Seed fleet: 10 drones across 3 hubs (models, payloads, batteries)
 │   ├── parcels.json         # Seed parcels: weights, zones, priorities (STANDARD / EXPRESS)

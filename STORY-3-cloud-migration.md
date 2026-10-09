@@ -62,7 +62,7 @@ When pursuing Option B (or upgrading Option A), state must move from ephemeral J
    - Production-ready `Dockerfile` (multi-stage or lightweight Node 20 alpine/slim) and `.dockerignore`.
    - Environment-variable configuration for port (`PORT`, default 3000) and log levels.
 3. **Artifact Registry Provisioning:**
-   - Terraform manages an Artifact Registry Docker repository (e.g. `dedeman-drone-repo`).
+   - Terraform manages an Artifact Registry Docker repository (e.g. `drone-dispatch-repo`).
 4. **Cloud Run Provisioning:**
    - Terraform provisions Cloud Run v2 service with:
      - Configurable CPU and memory allocations (default: 1 vCPU, 512 MiB).
